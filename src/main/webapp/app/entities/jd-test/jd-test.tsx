@@ -175,9 +175,8 @@ export const JdTest = () => {
                         </span>
                       </Button>
                       <Button
-                        onClick={() =>
-                          (window.location.href = `/jd-test/${jdTest.id}/delete?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`)
-                        }
+                        tag={Link}
+                        to={`/jd-test/${jdTest.id}/delete?page=${paginationState.activePage}&sort=${paginationState.sort},${paginationState.order}`}
                         color="danger"
                         size="sm"
                         data-cy="entityDeleteButton"
