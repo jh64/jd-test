@@ -129,7 +129,7 @@ module.exports = async options => {
           template: './src/main/webapp/index.html',
           chunksSortMode: 'auto',
           inject: 'body',
-          base: '/',
+          base: '/jd-test',
         }),
         new MergeJsonWebpackPlugin({
           output: {
