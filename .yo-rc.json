@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "jdTest",
+    "buildTool": "maven",
+    "clientFramework": "react",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "entities": [],
+    "jhipsterVersion": "8.11.0",
+    "jwtSecretKey": "NmNjNjE4NzJlZjkzNTdkM2YwZDNkYzIzNDUxOTkxMmZkODk0ZjgyYzg4NGJkY2Y1ODYwMTYxNjQyNjgyNjVjODkzYWU1MjJhOTQxOGViMjc5N2RkMTBiYzQyMTk0MTI4ZDU5MzIzZjNmNzg3N2IyMTBiOTczZDY3NDI1M2M5ZTU=",
+    "languages": ["en"],
+    "nativeLanguage": "en",
+    "packageName": "com.mycompany.myapp",
+    "prodDatabaseType": "oracle",
+    "withAdminUi": false
+  }
+}
