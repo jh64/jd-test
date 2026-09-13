@@ -2,7 +2,7 @@
 #
 # Auto detect text files and perform LF normalization
 # http://davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
-* text=auto
+* text=auto eol=lf
 
 # The above will handle all files NOT found below
 # These files are text and should be normalized (Convert crlf => lf)
@@ -16,9 +16,9 @@
 *.df            text
 *.ejs           text
 *.html          text
-*.java          text
+*.java          text eol=lf
 *.js            text
-*.json          text
+*.json          text eol=lf
 *.less          text
 *.properties    text
 *.sass          text
@@ -26,7 +26,7 @@
 *.sh            text eol=lf
 *.sql           text
 *.txt           text
-*.ts            text
+*.ts            text eol=lf
 *.xml           text
 *.yaml          text
 *.yml           text
