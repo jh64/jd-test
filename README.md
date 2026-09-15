@@ -2,7 +2,7 @@ The JHipster generated README.md was moved to README.jhipster.md.
 
 This project is for demonstrating the bug and bug fix for the code generated with generator-jhipster v8.11.0 - may be an old bug.
 
-The bug: it incorrectly used window.location.href. And it crashed after the base-href(e.g., "jd-test-base") was added - should use React Router instead.
+The bug: it incorrectly used window.location.href. And it crashed (getting a blank screen) after the base-href(e.g., "jd-test-base") was added in the webpack.common.js file - should use React Router instead.
 
 ![img.png](img.png)
 
